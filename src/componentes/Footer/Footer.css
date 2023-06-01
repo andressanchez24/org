@@ -1,18 +1,60 @@
-.footer{
-    width: 100%;
-    display: flex;
-    padding: 5%;
-    align-items: center;
-    box-sizing: border-box;
-    background-size: cover;
-    background-position: center;
-    justify-content: space-between;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+
+
+
+@media screen and (max-width: 460px){
+    .footer{
+        width: 100%;
+        padding: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .redes{
+        width: 30%;
+        justify-content: center;
+    }
+
+    .redes img{
+        padding: 0px 6px;
+    }
+    
+
+    .logo{
+        width: 55px;
+        width: 55px;
+    }
+
+    .desarrolladoBy{
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        width: 30%;
+        text-align: center;
+    }
+
 }
 
-.redes img{
-    padding: 0px 15px;
-}
 
+@media screen and (min-width:992px) {
+    .footer{
+        width: 100%;
+        display: flex;
+        padding: 5%;
+        align-items: center;
+        box-sizing: border-box;
+        background-size: cover;
+        background-position: center;
+        justify-content: space-between;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+    
+    .redes img{
+        padding: 0px 15px;
+    }
+}

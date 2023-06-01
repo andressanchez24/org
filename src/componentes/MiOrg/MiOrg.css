@@ -1,10 +1,5 @@
 .orgSection{
-    width: 100%;
-    display: flex;
     align-items: center;
-    justify-content: center;
-
-
 }
 
 .title{
@@ -20,7 +15,28 @@
 .orgSection img{
     width: 100px;
     height: 100px;
-    position: absolute;
-    right: 25%;
+    /* position: absolute;
+    right: 25%; */
     cursor: pointer;
+}
+
+@media screen and (max-width: 460px){
+    .orgSection{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .orgSection{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
