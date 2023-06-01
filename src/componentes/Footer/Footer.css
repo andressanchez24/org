@@ -1,10 +1,11 @@
 
 
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 425px){
     .footer{
+        height: 80px;
         width: 100%;
-        padding: 2%;
+        padding:2%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -16,34 +17,35 @@
     .redes{
         width: 30%;
         justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .redes img{
-        padding: 0px 6px;
+
+        padding: 0px 5px;
     }
-    
 
     .logo{
-        width: 55px;
-        width: 55px;
+        width: 60px;
+        width: 60px;
     }
 
     .desarrolladoBy{
         color: #fff;
         font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
+        font-size: 16px;
         width: 30%;
         text-align: center;
     }
-
 }
 
 
-@media screen and (min-width:992px) {
+@media screen and (min-width: 1024px) {
     .footer{
         width: 100%;
         display: flex;
-        padding: 5%;
+        padding: 3%;
         align-items: center;
         box-sizing: border-box;
         background-size: cover;
